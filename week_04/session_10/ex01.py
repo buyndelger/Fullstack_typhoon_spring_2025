@@ -91,10 +91,3 @@
 #     print(first)
 #     print(second)
 #     print(third)
-x = 10
-
-def add_nums():
-    y = 2
-    z = x + y
-    print z
-
