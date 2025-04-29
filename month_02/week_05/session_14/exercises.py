@@ -161,18 +161,7 @@ def exercise_5():
     2. Амжилттай нээгдсэн файлын агуулгыг хэвлэх
     """
     # Энд кодоо бичнэ үү
-    try: 
-       safe_open_file=safe_open_file()
-    except FileNotFoundError:
-        print(f"Алдаа: Файл {filename} олдсонгүй.")
-    except PermissionError:
-        print(f"Алдаа: Файлыг нээх эрх байхгүй: {filename}")
-    except IsADirectoryError:
-        print(f"Алдаа: {filename} нь файл биш бөгөөд хавтас.")
-    except ValueError:
-        print("Ene file baihgui baina")
-    else:
-        print("Filed amjiltai nevtrlee")
+   
 exercise_5()
 # ===============================================================
 # Дасгал 6: Дахин оролдох загвар (Retry pattern)
