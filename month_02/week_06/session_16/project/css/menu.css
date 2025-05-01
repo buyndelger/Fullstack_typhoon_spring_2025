@@ -1,7 +1,6 @@
 .a{
     background-color: white ;
-    width: 1440px;;
-    width: 100px;
+
 }
 .aa{
     position: absolute;
@@ -16,6 +15,7 @@
     left: 430px;
     top: 33px;
     font-size: 18px;
+    
 }
 .shop{
     color: black;
@@ -66,11 +66,11 @@
     position: absolute;
     top: 75px;
     left: -8px;
+    
 }
 .box{
-    background-color: peru;
+    background-color:blanchedalmond;
     position: absolute;
-    color: peru;
     top: 215px;
     left: 576px;
     width: 440px;
@@ -81,24 +81,83 @@
     position: absolute;
     top: 220px;
     left: 600px;
-
+display: block;
 }
 
 .cc{
     position: absolute;
     top: 250px;
     left:600px;
+    color: burlywood;
+    display: block;
 }
 .ccc{
     position: absolute;
     top: 350px;
     left: 600px;
+    display: block;
 
 }
 
 .cccc{
     position: absolute;
-    top: 320px;
+    top: 480px;
+    left: 600px;
+    width: 150px;
+    height: 50px;
+    background-color: burlywood;
+    color: white;
+   border: 0px;
+
+}
+.d{
+    position: relative;
+    top: 660px;
+    text-align: center;
+
+}
+.dd{
+    position: relative;
+    top: 640px;
+    text-align: center;
+}
+.ddd{
+    position: relative;
+    width: 381px;
+    height: 480px;
+    top: 650px;
+    border-radius: 11px;
+    
+}
+.ug1{
+position: relative;
+top: 620px;
+left: 135px;
+font-size: 30px;
 }
 
+.dddd{
+    position: relative;
+    top: 72px;
+    left: 400px;
+    width: 381px;
+    height: 480px;
+}
+.ug2{
+    position: relative;
+    font-size: 30px;
+    top: 39px;
+    left: 550px;
+}
+.e{
+    position: absolute;
+    top: 765px;
+    left: 800px;
+}
+.ug3{
+position: relative;
+font-size: 30px;
+top: -29px;
+left: 920px;
 
+}
