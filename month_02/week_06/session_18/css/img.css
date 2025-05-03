@@ -1,0 +1,41 @@
+body{
+    background-image: url(https://static.wixstatic.com/media/6a4342_1c18ecb194274d43b5ccfb6d0b44957f~mv2.jpg/v1/fill/w_1374,h_1145,al_c,q_85/N.Tsultem_Assembly%20of%20Clouds_1977.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img1{
+    background-image: url(https://i.pinimg.com/originals/37/18/a2/3718a239f5e03ac18921f7a2ad7ff96e.jpg);
+    width: 1050px;
+    height: 500px;
+    background-size: cover;
+
+}
+.img2{
+background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2WTB5HvljfCVicz8tIQbb2lxTySj7OE4ONw&s);
+width: 1050px;
+height: 500px;
+background-size: cover;}
+
+.figure{
+    position: relative;
+    width: 400px;
+    margin: 0;
+}
+.img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.figcaption{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+
+} 
+
