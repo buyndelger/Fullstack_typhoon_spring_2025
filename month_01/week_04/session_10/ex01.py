@@ -91,3 +91,5 @@
 #     print(first)
 #     print(second)
 #     print(third)
+x = 4 * 3 + 2 / 5
+print(x)

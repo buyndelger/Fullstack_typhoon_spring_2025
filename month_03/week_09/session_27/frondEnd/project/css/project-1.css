@@ -1,0 +1,395 @@
+body {}
+
+.navbar {
+    display: flex;
+    width: 1186px;
+    height: 71px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 7px 127px;
+
+
+}
+
+.all {
+    color: #75C310;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.home{
+    color: #000;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.navbar nav {
+    color: #75C310;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+ span {
+    color: black;
+}
+
+nav {
+    display: flex;
+    width: 675px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+nav a,
+input {
+    display: block;
+}
+
+.contact {
+    width: 149px;
+    height: 44.5px;
+    border-radius: 30px;
+    background-color: #75C310;
+    color: white;
+    border: none;
+}
+
+.page1 {
+    width: 1186px;
+    height: 513px;
+    padding: 92px 127px;
+    justify-content: space-between;
+    display: flex;
+    margin: 0 auto;
+
+}
+
+.page1-1 {
+    margin: 20px;
+}
+
+.page1 h1 {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.page1 p {
+    color: #000;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.avatar1 {
+    width: 514;
+    height: 513;
+}
+
+.gogo{
+    color: white;
+    text-align: center;
+    border-radius: 30px;
+    background-color: #75c310;
+    border: none;
+    width: 181px;
+    height: 44px;
+
+}
+
+.page2 {
+    display: flex;
+    width: 1186px;
+    height: 513px;
+    padding: 92px 127px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.page2-2 {
+    margin: 30px;
+    text-align: right;
+}
+
+.page2-2 h1 {
+    text-align: right;
+    color: #000;
+    text-align: right;
+    font-family: Montserrat;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.page2-2 p {
+    color: #000;
+    text-align: right;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.contact1 {
+    width: 184px;
+    height: 55px;
+    border-radius: 30px;
+    background-color: #75C310;
+    color: white;
+    border: none;
+}
+
+.page3 {
+    width: 1186px;
+    height: 159px;
+    padding: 92px 127px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.contact2 {
+    width: 184px;
+    height: 55px;
+    border-radius: 30px;
+    background-color: #75C310;
+    color: white;
+    border: none;
+}
+
+.page3 h1 {
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.page3 p {
+    color: #000;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.page4 {
+    width: 1368px;
+    height: 583px;
+    padding: 300px 41px 202px 31px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+
+
+.name1 {
+    border-radius: 22px;
+    border: 3px solid #75C310;
+    background: #FFF;
+    width: 382px;
+    height: 485px;
+    text-align: center;
+    box-shadow: 0px 14px 25px;
+    position: relative;
+
+
+}
+.one {
+    position: absolute;
+    top: -110px;
+}
+.onepic {
+    width: 205px;
+    height: 214px;
+
+
+
+}
+
+.name1 h1 {
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+
+.name1 p {
+    color: #000;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0px 42px 0px 42px;
+
+
+}
+
+.ceo1 {
+    padding-top: 80px;
+}
+
+
+
+.name2 {
+    border-radius: 22px;
+    border: 3px solid #75C310;
+    background: #FFF;
+    width: 382px;
+    height: 485px;
+    text-align: center;
+    box-shadow: 0px 14px 25px;
+    position: relative;
+}
+
+.name2 h1 {
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.name2 p {
+    color: #000;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0px 42px 0px 42px;
+}
+
+.ceo2 {
+    padding-top: 80px;
+}
+
+.two {
+    position: absolute;
+    top: -110px;
+}
+
+.name3 {
+    border-radius: 22px;
+    border: 3px solid #75C310;
+    background: #FFF;
+    width: 382px;
+    height: 485px;
+    text-align: center;
+    box-shadow: 0px 14px 25px;
+    position: relative;
+}
+
+.three {
+    position: absolute;
+    top: -110px;
+}
+
+.name3 h1 {
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.name3 p {
+    color: #000;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0px 42px 0px 42px;
+}
+
+.ceo3 {
+    padding-top: 80px;
+}
+
+.page5 {
+    width: 1368px;
+    height: 469px;
+    background-color: #75C310;
+    margin: 0 auto;
+    display: flex;
+}
+
+.page5-1 {
+   
+}
+
+.footer{
+    height: 100%;
+
+}
+
+.page5-2 {
+    text-align: right;
+    margin: 90px;
+    width: 50%;
+    margin-top: 91px;
+    margin-right: 127px;
+
+
+}
+
+.page5-2 h1 {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.page5-2 p {
+    color: #FFF;
+    text-align: right;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.backhome {
+    padding: 9px 23px;
+    border-radius: 30px;
+    border: none;
+    text-align: center;
+    margin-top: 80px;
+}

@@ -1,13 +1,16 @@
+
+
 .a{
     background-color: white ;
-
+display: flex;
+justify-content: space-around;
 }
 .aa{
     position: absolute;
     top: 20px;
     left: 25px;
     height: 40px;
-    width: 150px;
+ width: auto;
 }
 .home{
     color: black;
@@ -62,7 +65,7 @@
     top: 28px;
 }
 .bbb{
-    width: 1150px;
+    width: auto;
     position: absolute;
     top: 75px;
     left: -8px;
