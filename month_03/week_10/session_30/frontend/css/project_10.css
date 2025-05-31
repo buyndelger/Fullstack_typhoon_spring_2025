@@ -1,0 +1,56 @@
+.one {
+    display: flex;
+    height: 32px;
+    width: auto;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    /* position: relative; */
+}
+
+.as {
+    width: 30px;
+    height: 27px;
+    color: #251805;
+    font-family: MuseoModerno;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 300px;
+
+}
+
+.two {
+    color: #251805;
+    font-family: MuseoModerno;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    
+}
+nav {
+    display: flex;
+    width: 50%;
+    gap: 16px;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    margin-left: 200px;
+}
+.a {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+    color: #432818;
+    font-size: 16px;
+    font-family: Source Sans Pro;
+    font-weight: 600;
+    /* line-height: 24px; */
+
+}
