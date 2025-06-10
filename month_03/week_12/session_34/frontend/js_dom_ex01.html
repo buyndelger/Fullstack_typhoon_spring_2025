@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <h3 id="welcome"></h3>
+    <h3 id="snack"></h3>
+    <h3 id="tv-show"></h3>
+    <script src="./js/js_dom_ex.js"></script>
+    <script>
+        let welcome = prompt("What is your Name")
+        let snack = prompt("What is favorite snack")
+        let tvshow= prompt("What is favorite tv show")
+
+        document.getElementById('welcome').innerHTML = welcome;
+        document.getElementById('snack').innerHTML = snack;
+        document.getElementById('tv-show').innerHTML = tvShow;
+    </script>
+</body>
+</html>
