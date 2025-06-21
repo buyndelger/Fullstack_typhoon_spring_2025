@@ -27,5 +27,28 @@ FROM
 
 
 --exercises 3.1
-SELECT DISTINCT rating
-FROM film;
+select  distinct
+rating
+from
+film;
+--exercises 3.2
+select  distinct
+release_year
+from
+film;
+--exercises 3.3
+
+select  distinct
+rental_rate
+from
+film;
+
+--exercisi 3.4 
+select distinct 
+rating, release_year
+from
+film;
+--exercises 4
+SELECT *
+FROM film
+ORDER BY title ASC;
