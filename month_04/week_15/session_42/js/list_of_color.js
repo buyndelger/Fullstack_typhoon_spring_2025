@@ -23,4 +23,3 @@ if(colorList.length >=3){
     lastThree.innerHTML+= colorList[i]
     } 
 }
-
