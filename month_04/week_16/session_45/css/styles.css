@@ -1,0 +1,46 @@
+main{
+    max-width: 1400px;
+    background-color: azure;
+    margin: 0 auto;
+    height: 100vh;
+}
+
+main h1{
+    text-align: center;
+    /* width: 296px;
+    height: 44px; */
+    /* padding-right: 0.955px; */
+    /* justify-content: center;
+    align-items: center; */
+    /* flex-shrink: 0; */
+    color:darkblue;
+}
+main{
+    padding: 64px;
+    margin: 0 auto;
+
+}
+.pokemon-detail-container{
+    max-height: 300px;
+    max-width: 300px;
+    border-radius: 10px;
+}
+
+
+.pokemon-detail-container img{
+    max-width: 250px;
+    max-width: 250px;
+}
+main ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.search{
+    width: 1384px;
+height: 56px;
+flex-shrink: 0;
+border-radius: 16px;
+background: var(--White, #FFF);
+box-shadow: 0px 11px 20px 0px rgba(145, 145, 145, 0.16);
+}

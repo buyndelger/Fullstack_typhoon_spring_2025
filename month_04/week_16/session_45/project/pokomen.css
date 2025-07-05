@@ -1,0 +1,13 @@
+.checkbox{
+    color: aqua;
+    color: var(--Dark-Gray, #212121);
+font-feature-settings: 'liga' off, 'clig' off;
+
+/* Body(2) */
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+padding: 200px;
+}
