@@ -7,10 +7,11 @@ const HeroOne: React.FC =()=>{
         <>
         <div className="hero-one-container">
             <div className="hero-one-left">
-                <p>Endless your Creativity!</p>
+                <p>Your Satisfaction
+                Our Priority</p>
                 <p>I will create something that will
                 exceeding your expectation</p>
-                <p>Go to portofolio</p>
+                <p>Contact me!</p>
                 <div className="hero-one-right">
                     <img src="assets/Artboard01.svg" alt="Hero One Image" />
                 </div>
