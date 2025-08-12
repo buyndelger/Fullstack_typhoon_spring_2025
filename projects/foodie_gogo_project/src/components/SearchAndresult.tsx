@@ -1,4 +1,3 @@
-
 import React from "react";
 import firstimage from '../assets/Rectangle 31.svg';
 import secondimage from '../assets/image.svg';
