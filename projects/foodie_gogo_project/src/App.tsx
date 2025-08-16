@@ -6,7 +6,7 @@ import SearchAndResult from './components/SearchAndresult'
 
 function App() {
   return (
-    <>
+      <>
       <Header/>
       <Category/>
       <SearchAndResult/>
