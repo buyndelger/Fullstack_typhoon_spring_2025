@@ -1,0 +1,21 @@
+{% extends 'course/base.html' %} {% block content %}
+<h1>{{ course.title }}</h1>
+<div style="margin-top: 20px">
+  <p><strong>Багш:</strong> {{ course.teacher.username }}</p>
+  <p><strong>Тайлбар:</strong> {{ course.description }}</p>
+</div>
+<div style="margin-top: 20px">
+  <a href="{% url 'course_list' %}" class="btn btn-secondary">&larr; Буцах</a>
+</div>
+{% endblock %} course_form.html {% extends 'course/base.html' %} {% block
+content %}
+<h1>
+  {% if form.instance.pk %}Хичээл засварлах{% else %}Шинэ хичээл нэмэх{% endif
+  %}
+</h1>
+<form method="post" style="margin-top: 20px">
+  {% csrf_token %} {{ form.as_p }}
+  <button type="submit" class="btn btn-primary">Хадгалах</button>
+</form>
+{% endblock %}
+
